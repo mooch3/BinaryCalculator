@@ -3,12 +3,12 @@ body {
 }
 
 .btn1 {
-  background-color: lightgreen;
-  color: brown;
+  background-color: lightblue;
+  color: black;
 }
 
 .btn2 {
-background-color: darkgreen;
+background-color: brown;
 color: white;
 }
 
@@ -27,7 +27,7 @@ color: red;
 
 .result-box {
 
-  background-color: lightgray;
+  background-color: white;
   border-style: solid;
   border-color: black;
   height: 48px;
