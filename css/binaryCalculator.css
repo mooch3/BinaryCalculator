@@ -1,0 +1,35 @@
+body {
+  width: 33%;
+}
+
+.btn1 {
+  background-color: lightgreen;
+  color: brown;
+}
+
+.btn2 {
+background-color: darkgreen;
+color: white;
+}
+
+.btn3 {
+background-color: black;
+color: red;
+}
+
+.calcBtn {
+  width: 25%;
+  height: 36px;
+  font-size: 18px;
+  margin: 0;
+  float: left;
+}
+
+.result-box {
+
+  background-color: lightgray;
+  border-style: solid;
+  border-color: black;
+  height: 48px;
+  font-size: 20px;
+}

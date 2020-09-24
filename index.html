@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Binary Calculator</title>
+    <link rel="stylesheet" href="css/binaryCalculator.css">
+  </head>
+  <body>
+
+  <div class="btnContainer" id="btns">
+    <div class="result-box" id="res"></div>
+
+  <button type="button" class="calcBtn btn1" id="btn0" onclick= key('0')>0</button>
+  <button type="button" class="calcBtn btn1" id="btn1" onclick= key('1')>1</button>
+  <button type="button" class="calcBtn btn2" id="btnClr" onclick = clr()>C</button>
+  <button type="button" class="calcBtn btn2" id="btnEql" onclick = operatorFunctions()>=</button>
+  <button type="button" class="calcBtn btn3" id="btnSum" onclick = key("+")>+</button>
+  <button type="button" class="calcBtn btn3" id="btnSub" onclick = key('-')>-</button>
+  <button type="button" class="calcBtn btn3" id="btnMul" onclick = key('*')>*</button>
+  <button type="button" class="calcBtn btn3" id="btnDiv" onclick = key('/')>/</button>
+
+  </div>
+  <script type="text/javascript" src="js/binaryCalculator.js"></script>
+  </body>
+</html>
